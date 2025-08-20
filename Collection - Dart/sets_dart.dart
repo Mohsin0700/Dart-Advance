@@ -23,13 +23,13 @@ void main() {
 
   // print("List 1 after modification: $nums");
 
-  List<int> nums = [3, 1, 2, 5, 4];
-  print('Given List: $nums');
+  // List<int> nums = [3, 1, 2, 5, 4];
+  // print('Given List: $nums');
 
   // Let's sort this list in ascending order
-  List<int> newNums = [];
+  // List<int> newNums = [];
 
-  List<int> remaining = nums;
+  // List<int> remaining = nums;
   // while (remaining.isNotEmpty) {
   //   int smallest = remaining[0];
 
@@ -45,16 +45,16 @@ void main() {
   // print('Modified List: $newNums');
 
   // Let's sort this list in descending order
-  while (remaining.isNotEmpty) {
-    int largest = remaining[0];
-    for (var i = 0; i < remaining.length; i++) {
-      if (largest < remaining[i]) {
-        largest = remaining[i];
-      }
-    }
-    newNums.add(largest);
-    remaining.remove(largest);
-  }
+  // while (remaining.isNotEmpty) {
+  //   int largest = remaining[0];
+  //   for (var i = 0; i < remaining.length; i++) {
+  //     if (largest < remaining[i]) {
+  //       largest = remaining[i];
+  //     }
+  //   }
+  //   newNums.add(largest);
+  //   remaining.remove(largest);
+  // }
 
-  print('Modified List in descending order is ${newNums}');
+  // print('Modified List in descending order is ${newNums}');
 }
